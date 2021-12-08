@@ -1,4 +1,4 @@
-package br.com.bank.fatura.models;
+package br.com.bank.fatura.payloads.models;
 
 
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -14,7 +14,7 @@ import java.math.BigDecimal;
 public class Account implements Serializable {
 
     @JsonProperty("nomeCliente")
-    private String name;
+    private String nameClient;
 
     @JsonProperty("limite")
     private BigDecimal limit;
